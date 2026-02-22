@@ -1,0 +1,23 @@
+﻿00:00 +0: loading C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/repositories/movie_repository_impl_test.dart
+00:00 +0: getPopularMovies should return list of movies when data source succeeds
+00:00 +0 -1: getPopularMovies should return list of movies when data source succeeds [E]
+  Expected: Right<dynamic, List<MovieModel>>:<Right([MovieModel(1, Test Movie, Test overview, /test.jpg, /backdrop.jpg, 7.5, 2024-01-01)])>
+    Actual: Right<Failure, List<Movie>>:<Right([MovieModel(1, Test Movie, Test overview, /test.jpg, /backdrop.jpg, 7.5, 2024-01-01)])>
+  
+  package:matcher                                              expect
+  package:flutter_test/src/widget_tester.dart 473:18           expect
+  test\data\repositories\movie_repository_impl_test.dart 48:7  main.<fn>.<fn>
+  
+00:00 +0 -1: getPopularMovies should return ServerFailure on ServerException
+00:00 +1 -1: getPopularMovies should return NetworkFailure on NetworkException
+00:00 +2 -1: getMovieVideos should return list of videos when data source succeeds
+00:00 +2 -2: getMovieVideos should return list of videos when data source succeeds [E]
+  Expected: Right<dynamic, List<MovieVideoModel>>:<Right([MovieVideoModel(v1, abc123, Trailer, YouTube, Trailer)])>
+    Actual: Right<Failure, List<MovieVideo>>:<Right([MovieVideoModel(v1, abc123, Trailer, YouTube, Trailer)])>
+  
+  package:matcher                                              expect
+  package:flutter_test/src/widget_tester.dart 473:18           expect
+  test\data\repositories\movie_repository_impl_test.dart 78:7  main.<fn>.<fn>
+  
+00:00 +2 -2: getMovieVideos should return ServerFailure on error
+00:00 +3 -2: Some tests failed.

@@ -1,0 +1,7 @@
+﻿00:00 +0: loading C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/repositories/movie_repository_impl_test.dart
+00:00 +0: getPopularMovies should return list of movies when data source succeeds
+00:00 +1: getPopularMovies should return ServerFailure on ServerException
+00:00 +2: getPopularMovies should return NetworkFailure on NetworkException
+00:00 +3: getMovieVideos should return list of videos when data source succeeds
+00:00 +4: getMovieVideos should return ServerFailure on error
+00:00 +5: All tests passed!

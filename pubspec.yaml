@@ -1,0 +1,50 @@
+name: flutter_movies_module
+description: "Flutter module for displaying TMDB movies, integrated with native Android & iOS hosts."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Networking
+  http: ^1.4.0
+
+  # State Management (BLoC)
+  flutter_bloc: ^9.1.0
+  bloc: ^9.0.0
+  equatable: ^2.0.7
+
+  # Responsive sizing
+  responsive_sizer: ^3.3.1
+
+  # Image caching
+  cached_network_image: ^3.4.1
+
+  # Platform channel communication
+  # (built-in, no extra dep needed)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  bloc_test: ^10.0.0
+  mocktail: ^1.0.4
+  mockito: ^5.4.4
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+
+  module:
+    androidX: true
+    androidPackage: com.example.flutter_movies_module
+    iosBundleIdentifier: com.example.flutterMoviesModule

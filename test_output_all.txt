@@ -1,0 +1,52 @@
+﻿00:00 +0: loading C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_model_test.dart
+00:00 +0: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_model_test.dart: MovieModel should be a subclass of Movie entity
+00:00 +1: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_model_test.dart: MovieModel should create a valid MovieModel from JSON
+00:00 +2: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_model_test.dart: MovieModel should handle null values in JSON gracefully
+00:00 +3: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_model_test.dart: MovieModel should convert MovieModel to JSON
+00:01 +4: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_video_model_test.dart: MovieVideoModel should create a valid MovieVideoModel from JSON
+00:01 +5: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_video_model_test.dart: MovieVideoModel isYouTubeTrailer should return true for YouTube trailers
+00:01 +6: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_video_model_test.dart: MovieVideoModel isYouTubeTrailer should return false for non-trailers
+00:01 +7: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_video_model_test.dart: MovieVideoModel should convert to JSON correctly
+00:03 +8: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/repositories/movie_repository_impl_test.dart: getPopularMovies should return list of movies when data source succeeds
+00:03 +9: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/repositories/movie_repository_impl_test.dart: getPopularMovies should return ServerFailure on ServerException
+00:03 +10: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/repositories/movie_repository_impl_test.dart: getPopularMovies should return NetworkFailure on NetworkException
+00:03 +11: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/repositories/movie_repository_impl_test.dart: getMovieVideos should return list of videos when data source succeeds
+00:03 +12: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/repositories/movie_repository_impl_test.dart: getMovieVideos should return ServerFailure on error
+00:04 +13: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/bloc/movie_bloc_test.dart: initial state should be MovieInitial
+00:04 +14: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/bloc/movie_bloc_test.dart: FetchMovies emits [MovieLoading, MovieLoaded] when movies are fetched successfully
+00:04 +15: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/bloc/movie_bloc_test.dart: FetchMovies emits [MovieLoading, MovieError] when fetching movies fails
+00:04 +16: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/bloc/movie_bloc_test.dart: FetchMovieTrailer emits [MovieTrailerLoading, MovieTrailerLoaded] when trailer found
+00:04 +17: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/bloc/movie_bloc_test.dart: FetchMovieTrailer emits [MovieTrailerLoading, MovieTrailerError] when no videos found
+00:04 +18: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/bloc/movie_bloc_test.dart: FetchMovieTrailer emits [MovieTrailerLoading, MovieTrailerError] when fetch fails
+flutter : test/widget_test.d
+art:16:35: Error: Couldn't 
+find constructor 'MyApp'.
+At line:1 char:1
++ flutter test 2>&1 | 
+Out-File -FilePath 
+test_output_all.txt 
+-Encoding  ...
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          
+    : NotSpecified: (test/  
+  widget_tes...ructor 'My   
+ App'.:String) [], Remot    
+eException
+    + FullyQualifiedErrorId 
+    : NativeCommandError
+ 
+    await 
+tester.pumpWidget(const 
+MyApp());
+                            
+      ^^^^^
+00:07 +19: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/pages/movie_list_page_test.dart: shows loading indicator when state is MovieLoading
+00:08 +20: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/pages/movie_list_page_test.dart: shows movie card when state is MovieLoaded
+00:08 +21: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/pages/movie_list_page_test.dart: shows error view with retry button on MovieError
+00:09 +22 -1: loading C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/widget_test.dart [E]
+  Failed to load "C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/widget_test.dart":
+  Compilation failed for testPath=C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/widget_test.dart: test/widget_test.dart:16:35: Error: Couldn't find constructor 'MyApp'.
+      await tester.pumpWidget(const MyApp());
+                                    ^^^^^
+  .
+00:09 +22 -1: Some tests failed.

@@ -1,0 +1,25 @@
+﻿00:00 +0: loading C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_model_test.dart
+00:00 +0: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_model_test.dart: MovieModel should be a subclass of Movie entity
+00:00 +1: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_model_test.dart: MovieModel should create a valid MovieModel from JSON
+00:00 +2: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_model_test.dart: MovieModel should handle null values in JSON gracefully
+00:00 +3: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_model_test.dart: MovieModel should convert MovieModel to JSON
+00:00 +4: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_video_model_test.dart: MovieVideoModel should create a valid MovieVideoModel from JSON
+00:00 +5: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_video_model_test.dart: MovieVideoModel isYouTubeTrailer should return true for YouTube trailers
+00:00 +6: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_video_model_test.dart: MovieVideoModel isYouTubeTrailer should return false for non-trailers
+00:00 +7: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/models/movie_video_model_test.dart: MovieVideoModel should convert to JSON correctly
+00:00 +8: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/repositories/movie_repository_impl_test.dart: getPopularMovies should return list of movies when data source succeeds
+00:00 +9: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/repositories/movie_repository_impl_test.dart: getPopularMovies should return ServerFailure on ServerException
+00:00 +10: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/repositories/movie_repository_impl_test.dart: getPopularMovies should return NetworkFailure on NetworkException
+00:00 +11: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/repositories/movie_repository_impl_test.dart: getMovieVideos should return list of videos when data source succeeds
+00:00 +12: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/data/repositories/movie_repository_impl_test.dart: getMovieVideos should return ServerFailure on error
+00:00 +13: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/bloc/movie_bloc_test.dart: initial state should be MovieInitial
+00:00 +14: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/bloc/movie_bloc_test.dart: FetchMovies emits [MovieLoading, MovieLoaded] when movies are fetched successfully
+00:00 +15: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/bloc/movie_bloc_test.dart: FetchMovies emits [MovieLoading, MovieError] when fetching movies fails
+00:00 +16: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/bloc/movie_bloc_test.dart: FetchMovieTrailer emits [MovieTrailerLoading, MovieTrailerLoaded] when trailer found
+00:00 +17: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/bloc/movie_bloc_test.dart: FetchMovieTrailer emits [MovieTrailerLoading, MovieTrailerError] when no videos found
+00:00 +18: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/bloc/movie_bloc_test.dart: FetchMovieTrailer emits [MovieTrailerLoading, MovieTrailerError] when fetch fails
+00:01 +19: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/pages/movie_list_page_test.dart: shows loading indicator when state is MovieLoading
+00:01 +20: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/widget_test.dart: MoviesApp should render
+00:01 +21: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/widget_test.dart: MoviesApp should render
+00:01 +22: C:/Users/mahme/.gemini/antigravity/scratch/flutter_movies_module/test/presentation/pages/movie_list_page_test.dart: shows error view with retry button on MovieError
+00:01 +23: All tests passed!
